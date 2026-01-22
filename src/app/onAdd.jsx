@@ -3,7 +3,7 @@ export default function OnAdd({ handleInputChange, onAddTodo, value }) {
   return (
     <div className="flex justify-center gap-5 h-8">
       <input
-        className="border-gray-300 border rounded-md w-100"
+        className="border-gray-300 border rounded-md w-100 pl-2"
         type="text"
         placeholder="  Add a new task..."
         value={value}
